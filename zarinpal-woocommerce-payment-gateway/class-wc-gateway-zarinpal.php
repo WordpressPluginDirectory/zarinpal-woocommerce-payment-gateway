@@ -267,9 +267,9 @@ function Load_ZarinPal_Gateway() {
                 $currency = strtolower( $currency );
 
                 if ( $currency === 'irht' ) {
-                    $amount *= 1000;
+                    $amount *= 10000;
                 } elseif ( $currency === 'irhr' ) {
-                    $amount *= 100;
+                    $amount *= 1000;
                 } elseif ( $currency === 'irt' ) {
                     $amount *= 10;
                 }
@@ -361,9 +361,9 @@ function Load_ZarinPal_Gateway() {
                     $currency = strtolower( $currency );
 
                     if ( $currency === 'irht' ) {
-                        $amount *= 1000;
+                        $amount *= 10000;
                     } elseif ( $currency === 'irhr' ) {
-                        $amount *= 100;
+                        $amount *= 1000;
                     } elseif ( $currency === 'irt' ) {
                         $amount *= 10;
                     }
